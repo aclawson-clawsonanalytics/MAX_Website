@@ -22,7 +22,7 @@
   padding: 5rem 0 0;
   opacity: 0;
   list-style: none;
-  background: url("http://www.nasa.gov/sites/default/files/cygx1_ill.jpg") no-repeat center center;
+  background:linear-gradient(to bottom right,blue,green);/*background: url("/resources/images/index_overlay_image1.jpg") no-repeat center center; http://www.nasa/gov/sites/default/files/cygx1_ill.jpg*/
   background-size: cover;
   text-align: center;
   transform: translateX(-100%) rotateX(40deg);
@@ -37,6 +37,9 @@
     line-height: 6.25rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     text-decoration: none; }
+  .menu-text{
+      color:#fff;
+  }
     .overlay-menu a:hover {
       background-color: #0f88ff; }
   .overlay-menu.is-open ~ .toggle-menu {
@@ -44,8 +47,10 @@
     transition: all 0.4s ease-in-out;
     transform: rotate(135deg);
     color: white; }
+  
 
+ 
 .is-open {
-  top: 0;
+  top:0;
   opacity: 1;
   transform: perspective(200px) translateX(0) rotateX(0); }
