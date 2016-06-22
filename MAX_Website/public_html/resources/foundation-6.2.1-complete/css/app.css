@@ -22,7 +22,7 @@
   padding: 5rem 0 0;
   opacity: 0;
   list-style: none;
-  background:linear-gradient(to bottom right,blue,green);/*background: url("/resources/images/index_overlay_image1.jpg") no-repeat center center; http://www.nasa/gov/sites/default/files/cygx1_ill.jpg*/
+  background:radial-gradient(green,blue,#00ffff);/*background: url("/resources/images/index_overlay_image1.jpg") no-repeat center center; http://www.nasa/gov/sites/default/files/cygx1_ill.jpg*/
   background-size: cover;
   text-align: center;
   transform: translateX(-100%) rotateX(40deg);
