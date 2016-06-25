@@ -72,7 +72,8 @@
 .section-title
 {
     color:#fff;
-    
+    position:absolute;
+    left:10px;
     width:100%;
 }
 #intro-section
