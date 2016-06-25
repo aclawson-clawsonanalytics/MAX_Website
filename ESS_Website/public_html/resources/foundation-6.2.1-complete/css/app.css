@@ -54,3 +54,54 @@
   top:0;
   opacity: 1;
   transform: perspective(200px) translateX(0) rotateX(0); }
+
+    
+.homepage-section
+{
+    height:600px;
+    width:100%;
+   
+    background-position:center center;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -mox-background-size:cover;
+    -o-background-size:cover;
+    
+}
+
+.section-title
+{
+    color:#fff;
+    
+    width:100%;
+}
+#intro-section
+{
+    background-image:url('images/appleBooks.jpg');
+    
+}
+
+.section-text-box
+{
+    color:#fff;
+    width:400px;
+}
+
+#intro-text
+{
+    position:absolute;
+    right:60px;
+    width:250px;
+    bottom:380px;
+    padding:10px;
+    
+}
+
+#intro-list
+{
+    position:absolute;
+    right:50px;
+    width:250px;
+    bottom:220px;
+    padding:10px;
+}
