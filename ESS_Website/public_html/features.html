@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>ESS - Features</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="#" />
@@ -17,7 +17,7 @@ and open the template in the editor.
     
     <body>
         <ul class="tabs" data-tabs id="feature-tabs">
-            <li class="tabs-title"><a href="index.html">Home</a></li>
+            <li class="tabs-title" id="home-button"><a href="index.html">Home</a></li>
             <li class="tabs-title is-active" id="design-panel-button"><a href="#design-panel">Designed by teachers</a></li>
             <li class="tabs-title"><a href="#management-panel">Complete Management</a></li>
             <li class="tabs-title"><a>Mobile</a></li>
@@ -25,10 +25,19 @@ and open the template in the editor.
         </ul>
         
         <div class="tabs-content" data-tabs-content="feature-tabs">
-            <div class="tabs-panel" id="design-panel">
-                <p>
-                    Designed by teachers, for teachers.
-                </p>
+            <div class="tabs-panel is-active feature-panel" id="design-panel">
+                <div class="row">
+                    <h2 class="section-title" id="feature-design-title">
+                        Designed by teachers, for teachers
+                    </h2>                
+                </div>
+                <div class="section-text-box">
+                    <p id="design-text">
+                        At Elemental School Solutions, we understand the challenges and complexities of school
+                        management. Elemental School Solutions is designed for teachers...by teachers.
+                    </p>
+                    
+                </div>
             </div>
             
             <div class="tabs-panel" id="management-panel">
@@ -46,7 +55,9 @@ and open the template in the editor.
         <script>
           $(document).foundation();
           
-          
+          $("#home-button").click(function(){
+              window.location = "index.html";
+          });
         </script>
         <script src="resources/foundation-6.2.1-complete/js/app.js"></script>
     </body>
