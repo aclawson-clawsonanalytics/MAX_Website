@@ -35,9 +35,11 @@ and open the template in the editor.
     <!-- off-canvas left menu -->
     <div class="off-canvas position-left" id="offCanvasLeft" data-off-canvas>
         <ul class="vertical dropdown menu" data-dropdown-menu>
-            <li><a href="left_item_1">Left item 1</a></li>
-            <li><a href="left_item_2">Left item 2</a></li>
-            <li><a href="left_item_3">Left item 3</a></li>
+            
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="max-env.us-east-1.elasticbeanstalk.com/startup.htm">App</a></li>
           </ul>
     </div>
 
@@ -56,7 +58,7 @@ and open the template in the editor.
         <ul class="dropdown menu" data-dropdown-menu>
           <li class="menu-text">Elemental School Solutions</li>
           <li>
-            <a href="#">Item 1</a>
+            <a href="#">Features</a>
             <!--
             <ul class="menu submenu vertical" data-submenu>
               <li><a href="left_wide_11">Left wide 1</a></li>
@@ -66,7 +68,7 @@ and open the template in the editor.
             -->
           </li>
           <li>
-            <a href="#">Item 2</a>
+            <a href="#">Register</a>
             <!--
             <ul class="menu submenu vertical" data-submenu>
               <li><a href="left_wide_21">Left wide 1</a></li>
@@ -75,15 +77,20 @@ and open the template in the editor.
             </ul>
             -->
           </li>
+          <li><a>Contact</a></li>
+          <li><a href="http://max-env.us-east-1.elasticbeanstalk.com/startup.htm">App</a></li>
         </ul>
       </div>
+        <!--
       <div class="top-bar-right">
         <ul class="menu">
           <li><input type="search" placeholder="Search"></li>
           <li><button class="button">Search</button></li>
         </ul>
       </div>
+        -->
     </div>
+        
 
     <!-- original content goes in this container -->
     <div class="off-canvas-content" data-off-canvas-content>
@@ -99,8 +106,8 @@ and open the template in the editor.
               </div>
               <div class="section-text-box" id="intro-text-box">
                   <p id="intro-text">
-                      Whether you are a school, a district, or home school family, see how ESS
-                      can meet your needs today. <a id="intro-more-button">More...</a>
+                      Whether you are a school, a district, or home school family, ESS offers
+                      a complete school management system including:
                   </p>
                       <ul id="intro-list">
                           <li>Affortable school management</li>
@@ -122,17 +129,14 @@ and open the template in the editor.
 
   <!-- close wrapper, no more content after this -->
   </div>
-</div>
+
         
         <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
     
     <script>
       $(document).foundation();
-      $("#intro-list").hide();
-            $("#intro-more-button").click(function(){
-      $("#intro-list").toggle(); 
-}   ); 
+       
       
     </script>
     <script src="/resources/foundation-6.2.1-complete/js/app.js"></script>

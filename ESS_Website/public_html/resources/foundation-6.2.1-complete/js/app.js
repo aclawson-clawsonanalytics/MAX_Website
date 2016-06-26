@@ -7,5 +7,7 @@ $(".toggle-menu").on("click", function(){
        */
 $("#intro-list").hide();
 $("#intro-more-button").click(function(){
-   $("#intro-list").toggle(); 
+   $("#intro-list").toggle();
+   var introList = document.getElemendById("intro-list");
+   introList.innerHTML = "Less...";
 });

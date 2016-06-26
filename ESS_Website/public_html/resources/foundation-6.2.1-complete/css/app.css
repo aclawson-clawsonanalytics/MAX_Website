@@ -55,7 +55,10 @@
   opacity: 1;
   transform: perspective(200px) translateX(0) rotateX(0); }
 
-    
+.menu-text
+{
+    color:#1893e4;
+}
 .homepage-section
 {
     height:600px;
@@ -92,7 +95,7 @@
 {
     position:absolute;
     right:60px;
-    width:250px;
+    width:350px;
     bottom:380px;
     padding:10px;
     
@@ -102,7 +105,7 @@
 {
     position:absolute;
     right:50px;
-    width:250px;
+    width:350px;
     bottom:220px;
     padding:10px;
 }
