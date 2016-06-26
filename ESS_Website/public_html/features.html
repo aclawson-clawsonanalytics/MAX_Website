@@ -9,8 +9,45 @@ and open the template in the editor.
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="#" />
+        <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+        <link rel="stylesheet" href="resources/foundation-6.2.1-complete/css/app.css">
     </head>
+    
+    
     <body>
-        <div>TODO write content</div>
+        <ul class="tabs" data-tabs id="feature-tabs">
+            <li class="tabs-title"><a href="index.html">Home</a></li>
+            <li class="tabs-title is-active" id="design-panel-button"><a href="#design-panel">Designed by teachers</a></li>
+            <li class="tabs-title"><a href="#management-panel">Complete Management</a></li>
+            <li class="tabs-title"><a>Mobile</a></li>
+            <li class="tabs-title"><a>Flexible Accounts</a></li>
+        </ul>
+        
+        <div class="tabs-content" data-tabs-content="feature-tabs">
+            <div class="tabs-panel" id="design-panel">
+                <p>
+                    Designed by teachers, for teachers.
+                </p>
+            </div>
+            
+            <div class="tabs-panel" id="management-panel">
+                <p>
+                    Complete school management.
+                </p>
+            </div>
+        </div>
+        
+        
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+        <script src="resources/foundation-6.2.1-complete/js/vendor/foundation.min.js"></script>
+        
+        <script>
+          $(document).foundation();
+          
+          
+        </script>
+        <script src="resources/foundation-6.2.1-complete/js/app.js"></script>
     </body>
 </html>
