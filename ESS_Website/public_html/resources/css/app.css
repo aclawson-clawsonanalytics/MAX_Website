@@ -150,7 +150,7 @@
 .main-container
 {
     
-    background:lightsteelblue;
+    background:#1893e4;
     /*
     background: -webkit-linear-gradient(lightgray,#1893e4);
     background: -o-linear-gradient(lightgray,#1893e4);
@@ -161,7 +161,7 @@
 
 .page-header
 {
-    height:100px;
+    height:160px;
     text-align:center;
     
 }
@@ -187,5 +187,12 @@
 
 .content-section
 {
-    text-align:center;
+    width:700px;
+    /*text-align:center;*/
+    color:white;
+}
+
+div p
+{
+    font-size:20px;
 }
